@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9852af96-3713-4fce-9376-8899904b6a9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GraWZycie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategiaConway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/StrategiaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/GraWZycieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PointIntTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Laboratorium3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorium3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraWZycie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraWZycie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PointInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PointInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,6 +49,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -58,7 +58,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,38 +73,58 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraWZycie">
-    <configuration name="GraWZycie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraWZycie" />
+  <component name="RunManager" selected="JUnit.GraWZycieTest.ozyw">
+    <configuration name="PointInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PointInt" />
       <module name="Laboratorium3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategiaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Laboratorium3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Laboratorium3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategiaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategiaTest.czyOzywic_With_3_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraWZycieTest.ozyw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Laboratorium3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategiaTest" />
-      <option name="METHOD_NAME" value="czyOzywic_With_3_True" />
+      <option name="MAIN_CLASS_NAME" value="GraWZycieTest" />
+      <option name="METHOD_NAME" value="ozyw" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraWZycieTest.zabij" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laboratorium3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraWZycieTest" />
+      <option name="METHOD_NAME" value="zabij" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laboratorium3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PointIntTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraWZycie" />
-        <item itemvalue="JUnit.StrategiaTest" />
-        <item itemvalue="JUnit.StrategiaTest.czyOzywic_With_3_True" />
+        <item itemvalue="JUnit.GraWZycieTest.ozyw" />
+        <item itemvalue="JUnit.GraWZycieTest.zabij" />
+        <item itemvalue="JUnit.All in Laboratorium3" />
+        <item itemvalue="JUnit.PointIntTest" />
+        <item itemvalue="Application.PointInt" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +142,9 @@
       <workItem from="1670938806093" duration="723000" />
       <workItem from="1670941038837" duration="463000" />
       <workItem from="1670947765043" duration="5637000" />
+      <workItem from="1670967992319" duration="1049000" />
+      <workItem from="1670969065186" duration="280000" />
+      <workItem from="1670973596428" duration="4031000" />
     </task>
     <servers />
   </component>

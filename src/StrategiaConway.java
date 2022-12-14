@@ -1,15 +1,6 @@
 import java.util.Arrays;
 
 public class StrategiaConway implements Strategia {
-	public static void main(String[] args) {
-		boolean[][] lol = new boolean[3][3];
-		lol[0][0] = true;
-		lol[0][2] = true;
-		lol[2][0] = true;
-		var str = new StrategiaConway();
-		str.czyOzywic(lol);
-	}
-
 	//StrategiaConway - klasa implementujaca int. Strategia i realizujaca reguly wg Conwaya:
 	//      Martwa komórka, która ma dokładnie 3 żywych sąsiadów, staje się żywa w następnej jednostce czasu (rodzi się)
 	//      Żywa komórka z 2 albo 3 żywymi sąsiadami pozostaje nadal żywa; przy innej liczbie sąsiadów umiera (z „samotności” albo „zatłoczenia”)

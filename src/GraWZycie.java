@@ -16,12 +16,13 @@ public class GraWZycie {
 	//GraWZycie - klasa, metody: ozyw(), zabij(), ustawStrategie(), dajMinX()..., krok(), dajPlansze(), dajPlanszeStr(), ileZywych()
 	public void ozyw(int x, int y) {
 		var cell = getPointFromMap(x, y);
-		aliveCells.put(cell, 0);
+		if (cell == null) aliveCells.put(new PointInt(x, y), 0);
+		else if (aliveCells.get(cell) <= 0) aliveCells.put(cell, 0);
 	}
 
 	public void zabij(int x, int y) {
 		var cell = getPointFromMap(x, y);
-		aliveCells.remove(cell);
+		if (cell != null) aliveCells.remove(cell);
 	}
 
 	public int[][] dajPlansze(int minX, int minY, int maxX, int maxY) {

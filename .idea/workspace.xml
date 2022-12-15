@@ -7,9 +7,6 @@
     <list default="true" id="9852af96-3713-4fce-9376-8899904b6a9a" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraWZycie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraWZycie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategiaConway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategiaConway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GraWZycieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GraWZycieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/StrategiaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/StrategiaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -71,11 +69,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraWZycieTest.dajPlanszeTest">
+  <component name="RunManager" selected="JUnit.All in Laboratorium3">
     <configuration name="All in Laboratorium3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Laboratorium3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraWZycieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laboratorium3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraWZycieTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,16 +92,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GraWZycieTest" />
       <option name="METHOD_NAME" value="dajPlanszeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GraWZycieTest.ozyw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Laboratorium3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraWZycieTest" />
-      <option name="METHOD_NAME" value="ozyw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Laboratorium3" />
+        <item itemvalue="JUnit.GraWZycieTest" />
         <item itemvalue="JUnit.GraWZycieTest.dajPlanszeTest" />
         <item itemvalue="JUnit.StrategiaTest" />
         <item itemvalue="JUnit.StrategiaTest.czyZabic_With_4_True" />
-        <item itemvalue="JUnit.All in Laboratorium3" />
-        <item itemvalue="JUnit.GraWZycieTest.ozyw" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +143,17 @@
       <workItem from="1670967992319" duration="1049000" />
       <workItem from="1670969065186" duration="280000" />
       <workItem from="1670973596428" duration="4031000" />
+      <workItem from="1671096006275" duration="1988000" />
+      <workItem from="1671114197390" duration="230000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1671014722161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671014722161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +169,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
